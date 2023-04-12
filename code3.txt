@@ -1,0 +1,96 @@
+
+
+.586
+.XMM
+.MODEL flat, C
+.DATA
+fly dd 0
+y1 dd 0
+y2 dd 0
+y3 dd 0
+y4 dd 0
+y5 dd 0
+i dd 0
+.CODE
+extern func:near
+public asfun; /*Объявление функции, которую будет вызывать код С++*/
+asfun proc C x:dword; /*Объявление переменных, которые будут переданы из С++*/
+mov eax, x; /*Передача в регистр ах*/
+push eax; /*Добавление в стек*/
+call func; /*Вызов функции из кода C++ из Assembler*/
+fst fly; /*Передача расчитанного значения из стека в переменную*/
+
+mov eax, y1; /*Передаем значение y1 в регистр ax*/
+mov ebx, i; /*Передача 0 для работы ветвления в регистр bx*/
+mov ecx, fly; /*Передача результата вычисления в регистр cx*/
+cmp eax, ebx; /*Сравнение y1 и 0 (проверка, что переменная пустая)*/
+JNE Next; /*Если в y1 уже записано значение, то переходим в следующую переменную*/
+mov y1, ecx; /*Если переменная пуста, то записываем в у1*/
+JMP Exit;
+
+Next:
+mov eax, y2;
+cmp eax, ebx;
+JNE Go;
+mov y2, ecx; 
+JMP Exit;
+
+Go:
+mov eax, y3;
+cmp eax, ebx;
+JNE Another;
+mov y3, ecx; 
+JMP Exit;
+
+Another:
+mov eax, y4;
+cmp eax, ebx;
+JNE Last;
+mov y4, ecx;
+JMP Exit;
+
+Last:
+mov y5, ecx;
+
+Exit:
+ret
+asfun endp; /*Конец функции вызова, возврат значения в C++*/
+End 
+
+---
+
+
+#include <iostream>
+#include <math.h>
+#include <windows.h>
+using namespace std;
+const int n = 5;
+extern "C" float asfun(int x, int n);
+//extern "C" float last(int x);
+extern "C" float func(int x)
+{
+    float f;
+    f = log(abs(cos(x) + sin(x)));
+    return f;
+}
+
+int main()
+{
+
+    SetConsoleCP(1251);
+    SetConsoleOutputCP(1251);
+
+    int x;
+    double y[n];
+
+    for (int i = 0; i < n; i++)
+    {
+        cout << "Введите Х" << i + 1 << " "; cin >> x;
+        float f = asfun(x, n);
+        y[i] = f;
+        cout << "X(" << i + 1 << ") = " << x << endl;
+        cout << "Y(" << i + 1 << ") = " << y[i] << endl;
+    }
+    return 0;
+
+}
