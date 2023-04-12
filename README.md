@@ -19,4 +19,6 @@ Assembler выполняет функцию y = f(x), то есть записы
 Результат работы программы представлен на рисунке ниже <br>
 ![image](https://user-images.githubusercontent.com/126500303/231412597-fa2e5bb2-784a-4f04-8a02-a7269beae8d2.png) <br>
 
+Код программы представлен в файле code3.txt, Assembler - some.asm, C++ - ConsoleApplication50.cpp
+
 
