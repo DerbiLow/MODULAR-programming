@@ -26,7 +26,7 @@ Assembler выполняет функцию y = f(x), то есть записы
 ![image](https://github.com/DerbiLow/MODULAR-programming/assets/126500303/79e15786-14cd-4e22-8741-405d017eabf7) <br>
 
 
-Код программы представлен в файле code3.txt, Assembler - some.asm, C++ - ConsoleApplication50.cpp <br>
-Код программы на Python представлен в файле python(2).txt <br>
+Код программы представлен в файле code3.txt, Assembler - some.asm, C++ - ConsoleApplication50.cpp (Проект в ConsoleApplication50) <br>
+Код программы на Python представлен в файле python(2).txt (Проект в PythonApplication1) <br>
 
 
