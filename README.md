@@ -22,7 +22,11 @@ Assembler выполняет функцию y = f(x), то есть записы
 
 Скорость работы кода С++ и assembler: <br>
 ![image](https://github.com/DerbiLow/MODULAR-programming/assets/126500303/99df0c03-4029-4b57-9e15-9c380861f5b4) <br>
+Скорость работы кода на Python: <br>
+![image](https://github.com/DerbiLow/MODULAR-programming/assets/126500303/79e15786-14cd-4e22-8741-405d017eabf7) <br>
 
-Код программы представлен в файле code3.txt, Assembler - some.asm, C++ - ConsoleApplication50.cpp
+
+Код программы представлен в файле code3.txt, Assembler - some.asm, C++ - ConsoleApplication50.cpp <br>
+Код программы на Python представлен в файле python(2).txt <br>
 
 
