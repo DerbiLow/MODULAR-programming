@@ -1,0 +1,6 @@
+﻿  Source.cpp
+C:\Users\V-Vol\source\repos\DLL4\DLL4\Source.cpp(5,9): warning C4244: =: преобразование "double" в "float", возможна потеря данных
+C:\Users\V-Vol\source\repos\DLL4\DLL4\Source.cpp(6,9): warning C4244: return: преобразование "float" в "int", возможна потеря данных
+     Создается библиотека C:\Users\V-Vol\source\repos\DLL4\x64\Debug\DLL4.lib и объект C:\Users\V-Vol\source\repos\DLL4\x64\Debug\DLL4.exp
+MSVCRTD.lib(exe_main.obj) : error LNK2019: ссылка на неразрешенный внешний символ main в функции "int __cdecl invoke_main(void)" (?invoke_main@@YAHXZ).
+C:\Users\V-Vol\source\repos\DLL4\x64\Debug\DLL4.exe : fatal error LNK1120: неразрешенных внешних элементов: 1

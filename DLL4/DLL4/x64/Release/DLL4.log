@@ -1,0 +1,10 @@
+﻿  Source.cpp
+C:\Users\V-Vol\source\repos\DLL4\DLL4\Source.cpp(8,10): warning C4244: инициализация: преобразование "double" в "float", возможна потеря данных
+C:\Users\V-Vol\source\repos\DLL4\DLL4\Source.cpp(9,9): warning C4244: return: преобразование "float" в "int", возможна потеря данных
+     Создается библиотека C:\Users\V-Vol\source\repos\DLL4\x64\Release\DLL4.lib и объект C:\Users\V-Vol\source\repos\DLL4\x64\Release\DLL4.exp
+  Создание кода
+  3 of 3 functions (100.0%) were compiled.
+    2 functions were new in current compilation
+    0 functions had inline decision re-evaluated but remain unchanged
+  Создание кода завершено
+  DLL4.vcxproj -> C:\Users\V-Vol\source\repos\DLL4\x64\Release\DLL4.dll
