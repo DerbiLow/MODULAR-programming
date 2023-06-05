@@ -24,9 +24,12 @@ Assembler выполняет функцию y = f(x), то есть записы
 ![image](https://github.com/DerbiLow/MODULAR-programming/assets/126500303/99df0c03-4029-4b57-9e15-9c380861f5b4) <br>
 Скорость работы кода на Python: <br>
 ![image](https://github.com/DerbiLow/MODULAR-programming/assets/126500303/79e15786-14cd-4e22-8741-405d017eabf7) <br>
-
+Скорость работы  кода на Python с DLL: <br>
+![Python+DLL](https://github.com/DerbiLow/MODULAR-programming/assets/126500303/3d0ca18a-9fb2-410a-995c-32064b01058b) <br>
+Из результатов работы программы можно сделать вывод: Самый медленный - Python из-за того, что он работает построчно. C++ (на котором написан DLL) перед работой компилируется, за счет чего работает быстрее. Самый быстрый способ вычисления результата - С++ и assembler <br>
 
 Код программы представлен в файле code3.txt, Assembler - some.asm, C++ - ConsoleApplication50.cpp (Проект в ConsoleApplication50) <br>
 Код программы на Python представлен в файле python(2).txt (Проект в PythonApplication1) <br>
+Код программы на Python с DLL представлен в файле 325.txt (Проект в PythonApplication4 и DLL4) <br>
 
 
