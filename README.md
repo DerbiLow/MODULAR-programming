@@ -32,9 +32,9 @@ Assembler выполняет функцию y = f(x), то есть записы
 Скорость работы кода С++ и assembler: <br>
 ![c++asemblyPNG](https://github.com/DerbiLow/MODULAR-programming/assets/126500303/5b46de37-d636-48c4-9537-54feb05e514e)<br>
 Скорость работы кода на Python: <br>
-![Python](https://github.com/DerbiLow/MODULAR-programming/assets/126500303/e8161d50-78d2-40a6-acb2-b3dd294f553e)<br>
+![image](https://github.com/DerbiLow/MODULAR-programming/assets/126500303/63cf5f95-208b-4a03-8843-1089b82d54bf)<br>
 Скорость работы  кода на Python с DLL: <br>
-![Python DLL](https://github.com/DerbiLow/MODULAR-programming/assets/126500303/879bf437-17ce-4297-bb9f-e1ba0883459e)<br>
+![image](https://github.com/DerbiLow/MODULAR-programming/assets/126500303/43aa6195-1e7b-442a-b1d1-0038131fa1ea)<br>
 
 Код программы представлен в файле code3.txt, Assembler - some.asm, C++ - ConsoleApplication50.cpp (Проект в ConsoleApplication50) <br>
 Код программы на Python представлен в файле python(2).txt (Проект в PythonApplication1) <br>
