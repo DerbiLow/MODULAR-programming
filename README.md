@@ -21,7 +21,7 @@ Assembler выполняет функцию y = f(x), то есть записы
 ![image](https://user-images.githubusercontent.com/126500303/231418424-1f2bdac6-f017-4423-88f3-73062c4195f4.png)<br>
 
 Скорость работы кода С++ и assembler: <br>
-![image](https://github.com/DerbiLow/MODULAR-programming/assets/126500303/99df0c03-4029-4b57-9e15-9c380861f5b4) <br>
+![image](https://github.com/DerbiLow/MODULAR-programming/assets/126500303/2e671108-3aaf-4efa-b3d0-2c6e969ac3a3)<br>
 Скорость работы кода на Python: <br>
 ![image](https://github.com/DerbiLow/MODULAR-programming/assets/126500303/79e15786-14cd-4e22-8741-405d017eabf7) <br>
 Скорость работы  кода на Python с DLL: <br>
